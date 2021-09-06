@@ -9,7 +9,7 @@
   font-size: 18px;
   line-height: (30/18);
   &__bg {
-    background-color: #fcee21;
+    background-color: #37266698;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -19,20 +19,20 @@
   line-height: (42/24);
   text-align: center;
   padding: ((60px-42)/2) 20px;
-  background-color: #d9e021;
+  background-color: #37266698;
   margin: 0 -20px 20px -20px;
   &__stage {
     display: inline-block;
     margin-right: 2rem;
   }
   &--keycolorlight {
-    background-color: #8cc63f;
+    background-color: #37266698;
     .section-title__stage {
-      color: #fff;
+      color: rgb(209, 44, 44);
     }
   }
   &--keycolor {
-    background-color: #39b54a;
+    background-color:#37266698;
   }
   &--story {
     width: 330px;
