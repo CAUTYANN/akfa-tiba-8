@@ -28,6 +28,10 @@ body {
   margin: 0;
 }
 
+.Video{
+  text-align: center;
+}
+
 img {
   width: 100%;
 }
