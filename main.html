@@ -17,7 +17,7 @@
   </svg>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/iosimages.png" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="assets/images/iosimages.png" alt="封鎖された遊園地からの脱出"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -27,7 +27,10 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>A男を救い出せ！</h2>
+            <div class="youtube">
+          <iframe width="100％" height="100%" src="https://www.youtube.com/embed/Tf3nsAwA0-0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
             <p class="text-center">A男が載っているジェットコースターが止まらないみたい！！<br>
               停止ボタンを押すにはパスワードが必要みたいだ<br>
               下の画像の謎を解き、A男を救い出そう</p>
@@ -80,11 +83,10 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__content">ボタンのロックが外れた！<br>
+               A男を助けることができそうだ<br>
+                話を聞いてみよう</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
-            </div>
           </div>
         </section>
         <!-- STAGE1クリア画面　ここまで -->
@@ -101,10 +103,16 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>鍵のかかった扉</h2>
+              <div class="youtube">
+          <iframe width="100％" height="100%" src="https://www.youtube.com/embed/Tf3nsAwA0-0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+              <p class="text-center">B男がメリーゴーランドに閉じ込められているみたい</br>
+                鍵がかかってて入れないみたいだ<br>
+                扉を開けるに下の画像の謎を解こう</p>
+                <figure class="image__container">
+                  <img src="assets/images/question2.png" alt="">
+                </figure>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -176,8 +184,8 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">バールで扉の鍵を壊して扉を開けた<br>
+                B男に話を聞いてみよう！！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -192,12 +200,15 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>家庭科室の課題とは</h2>
-            <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
-              これらを解決するための最後の謎を解いていこう！</p>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>暴走した機械</h2>
+            <div class="youtube">
+          <iframe width="100％" height="100%" src="https://www.youtube.com/embed/Tf3nsAwA0-0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+            <p class="text-center">コーヒーが勝手に暴走を始めた<br>
+              C子が暴走したコーヒーカップにぶつかりそうで危ない！！<br>
+              暴走を止めるために下の画像の謎を解こう</p>
             <figure class="image__container">
-              <img src="assets/images/question3.jpg" alt="">
+              <img src="assets/images/question3.png" alt="">
             </figure>
           </div>
         </section>

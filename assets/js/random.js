@@ -1,12 +1,12 @@
 var Obj = {
     loop: false,
-    minDisplayTime: 2000,// アニメーションの間隔時間
+    minDisplayTime: 500,// アニメーションの間隔時間
     initialDelay: 500, // アニメーション開始までの遅延時間
     autoStart: true,
     in: {
       effect: 'fadeInUp',//animate.css の中にある採用したい動きのクラス名
       delayScale: 1,// 遅延時間の指数
-      delay: 100,// 文字ごとの遅延時間
+      delay: 10,// 文字ごとの遅延時間
       sync: false,// アニメーションをすべての文字に同時適用するかどうか
       shuffle: true,// 文字表示がランダムな順に表示されるかどうか
     },

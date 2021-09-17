@@ -18,19 +18,16 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: '190円',
-          q2: '190'
+          q1: 'ゆみ',
+          q2: '弓'
         },
         stage2: {
-          q1: 'ゆみ',
-          q2: '弓',
+          q1: 'apple',
+          q2: 'りんご',
           // q3: 'おおお'
         },
         stage3: {
-          q1: 'apple',
-          q2: 'りんご',
-          q3: 'Apple',
-          q4: 'APPLE',
+          q1: 'かんらんしゃ',
         }
       },
 
@@ -50,6 +47,11 @@ const app = Vue.createApp({
           false, // 3-1
           // false, // 3-2
           // false, // 3-3
+        ],
+        stage4: [
+          false, // 3-1
+          // false, // 3-2
+          // false, // 3-3
         ]
       },
 
@@ -58,6 +60,7 @@ const app = Vue.createApp({
         stage1: false,
         stage2: false,
         stage3: false,
+        stage4: false,
       },
 
       /* 次のステージを表示するかどうか
@@ -66,6 +69,7 @@ const app = Vue.createApp({
       next: {
         stage1: false,
         stage2: false,
+        stage3: false,
       },
     }
   },
